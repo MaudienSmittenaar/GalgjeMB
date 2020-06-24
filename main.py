@@ -1,6 +1,7 @@
 import re
 import random
 
+counter = 0
 woordenlijst = ["school", "corona", "leerwerk", "huiswerk", "vakantie", "zomer", "python","informatica", "winnaar", "computer", "schoolboek", "zon", "zwemmen", "uitrusten"]
 
 hetwoord = random.choice(woordenlijst)
@@ -15,7 +16,12 @@ while True:
   gokje = (input(": "))
   match = re.search(gokje, hetwoord)
   if gokje == hetwoord: 
-    print('Je heb het woord ' + '"' + hetwoord + '"' + " geraden! Goed gedaan!")
+    print('Goed gedaan! Je heb het woord ' + '"' + hetwoord + '"' + " geraden")
     break
-  else:
-    print('Jammer ' + gokje + " is niet het woord. Probeer het nog eens!")
+  
+  elif match: #goed geraden letter
+    print("Goed geraden! Ga zo door.")
+    for i in range(0, lengtewoord):
+      if gokje == hetwoord[i]:
+        temp = temp[:i] + gokje +temp[i+1:]
+    print(temp)
