@@ -5,3 +5,5 @@ woordenlijst = ["school", "corona", "leerwerk", "huiswerk", "vakantie", "zomer",
 hetwoord = random.choice(woordenlijst)
 lengtewoord = len(hetwoord)
 temp = "." * lengtewoord
+
+print("Laten we beginnen! Om je een beetje opweg te helpen vertel ik je hoeveel letters het woord heeft. Het woord heeft" + str(lengtewoord) + " letters") 
