@@ -28,3 +28,8 @@ while True:
       if gokje == hetwoord[i]:
         temp = temp[:i] + gokje +temp[i+1:]
     print(temp)
+
+  else: 
+    print("Nee helaas! Deze letter zit niet in het woord.")
+    
+   
