@@ -1,0 +1,1 @@
+print("We spelen het spel galgje. Leuk dat je meedoet! Raad letters en kom zo achter het woord. Weet het je hele woord? Type dan het woord voluit om te winnen!")
