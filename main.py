@@ -18,4 +18,4 @@ while True:
     print('Je heb het woord ' + '"' + hetwoord + '"' + " geraden! Goed gedaan!")
     break
   else:
-    print("Jammer dit is niet het woord. Probeer het nog eens!")
+    print('Jammer ' + gokje + " is niet het woord. Probeer het nog eens!")
