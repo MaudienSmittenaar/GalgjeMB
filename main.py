@@ -1,5 +1,6 @@
 import re
 import random
+import time
 
 counter = 0
 woordenlijst = ["school", "corona", "leerwerk", "huiswerk", "vakantie", "zomer", "python","informatica", "winnaar", "computer", "schoolboek", "zon", "zwemmen", "uitrusten"]
@@ -10,6 +11,14 @@ temp = "." * lengtewoord
 
 print("We spelen het spel galgje. Leuk dat je meedoet!")   
 print("Raad letters en kom zo achter het woord. Weet het je hele woord? Type dan het woord voluit om te winnen!")
+
+time.sleep(5)
+
+print()
+print("Intotaal het je 10 levens. Bij de 10de keer dat je een foute letter hebt gekozen of het foute woord aangeeft, ben je dood.")
+
+time.sleep(5)
+print()
 print("Laten we beginnen!")
 print()
 print("Om je een beetje opweg te helpen vertel ik je hoeveel letters het woord heeft!")
