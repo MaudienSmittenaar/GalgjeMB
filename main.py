@@ -2,6 +2,12 @@ import re
 import random
 import time
 
+print ()
+naam = input ('Hoe heet je? ')
+print ()
+print ('Hallo,', naam)
+print ()
+
 counter = 0
 woordenlijst = ["school", "corona", "leerwerk", "huiswerk", "vakantie", "zomer", "python","informatica", "winnaar", "computer", "schoolboek", "zon", "zwemmen", "uitrusten"]
 
