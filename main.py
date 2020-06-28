@@ -120,4 +120,7 @@ _____|""")
  -|- |
  / \ |
      |
-_____|""" ' Je bent helaas dood. Al je levens zijn op.')
+_____|""") 
+      time.sleep(0.5)
+      print('Jammer! Je hebt het woord niet weten te raden. Speel opnieuw en win!')
+      break 
