@@ -31,5 +31,84 @@ while True:
 
   else: 
     print("Nee helaas! Deze letter zit niet in het woord.")
-    
-   
+    counter = counter + 1
+    if counter == 1:
+      print("""  
+     |
+     |
+     |
+     |
+     |
+_____|""")
+    elif counter == 2:
+      print("""____
+     |
+     |
+     |
+     |
+     |
+_____|""")
+    elif counter == 3:
+            print("""  ____
+    \|
+     |
+     |
+     |
+     |
+_____|""")
+    elif counter == 4:
+      print("""  ____
+  | \|
+     |
+     |
+     |
+     |
+_____|""")
+    elif counter == 5:
+      print("""  ____
+  | \|
+  0  |
+     |
+     |
+     |
+_____|""")
+    elif counter == 6:
+      print("""  ____
+  | \|
+  0  |
+  |  |
+     |
+     |
+_____|""")
+    elif counter == 7:
+      print("""  ____
+  | \|
+  0  |
+ /|  |
+     |
+     |
+_____|""")
+    elif counter == 8:
+      print("""  ____
+  | \|
+  0  |
+ /|\ |
+     |
+     |
+_____|""")
+    elif counter == 9:
+      print("""  ____
+  | \|
+  0  |
+ -|- |
+ /   |
+     |
+_____|""")
+    elif counter == 10:
+      print("""  ____
+  | \|
+  0  |
+ -|- |
+ / \ |
+     |
+_____|""" ' Je bent helaas dood. Al je levens zijn op.')
