@@ -6,7 +6,6 @@ print ()
 naam = input ('Hoe heet je? ')
 print ()
 print ('Hallo,', naam)
-print ()
 
 counter = 0
 woordenlijst = ["school", "corona", "leerwerk", "huiswerk", "vakantie", "zomer", "python","informatica", "winnaar", "computer", "schoolboek", "zon", "zwemmen", "uitrusten"]
@@ -21,7 +20,7 @@ print("Raad letters en kom zo achter het woord. Weet het je hele woord? Type dan
 time.sleep(5)
 
 print()
-print("Intotaal het je 10 levens. Bij de 10de keer dat je een foute letter hebt gekozen of het foute woord aangeeft, ben je dood.")
+print("Intotaal het je 10 levens. Bij de tiende keer dat je een foute letter hebt gekozen of het foute woord aangeeft, ben je dood.")
 
 time.sleep(5)
 print()
@@ -55,6 +54,7 @@ while True:
      |
      |
 _____|""")
+      print(naam + ", je hebt nog 9 levens.")
     elif counter == 2:
       print("""____
      |
@@ -63,14 +63,16 @@ _____|""")
      |
      |
 _____|""")
+      print(naam + ", je hebt nog 8 levens.")
     elif counter == 3:
-            print("""  ____
+      print("""  ____
     \|
      |
      |
      |
      |
 _____|""")
+      print(naam + ", je hebt nog 7 levens.")
     elif counter == 4:
       print("""  ____
   | \|
@@ -79,6 +81,7 @@ _____|""")
      |
      |
 _____|""")
+      print(naam + ", je hebt nog 6 levens.")
     elif counter == 5:
       print("""  ____
   | \|
@@ -87,6 +90,7 @@ _____|""")
      |
      |
 _____|""")
+      print(naam + ", je hebt nog 5 levens.")
     elif counter == 6:
       print("""  ____
   | \|
@@ -95,6 +99,7 @@ _____|""")
      |
      |
 _____|""")
+      print(naam + ", je hebt nog 4 levens.")
     elif counter == 7:
       print("""  ____
   | \|
@@ -103,6 +108,7 @@ _____|""")
      |
      |
 _____|""")
+      print(naam + ", je hebt nog 3 levens.")
     elif counter == 8:
       print("""  ____
   | \|
@@ -111,6 +117,7 @@ _____|""")
      |
      |
 _____|""")
+      print(naam + ", je hebt nog 2 levens.")
     elif counter == 9:
       print("""  ____
   | \|
@@ -119,6 +126,7 @@ _____|""")
  /   |
      |
 _____|""")
+      print(naam + ", je hebt nog 1 leven.")
     elif counter == 10:
       print("""  ____
   | \|
