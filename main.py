@@ -137,4 +137,8 @@ _____|""")
 _____|""") 
       time.sleep(0.5)
       print('Jammer! Je hebt het woord niet weten te raden. Speel opnieuw en win!')
+      
+      time.sleep(1)
+      print()
+      print("Dit is het einde van het spel. Klik op 'Run' om het spel nogmaals te spelen!")
       break 
