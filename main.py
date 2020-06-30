@@ -34,6 +34,7 @@ while True:
   match = re.search(gokje, hetwoord)
   if gokje == hetwoord: 
     print('Goed gedaan! Je heb het woord ' + '"' + hetwoord + '"' + " geraden")
+    print("Dit is het einde van het spel. Klik op 'Run' om het spel nogmaals te spelen!")
     break
   
   elif match: 
