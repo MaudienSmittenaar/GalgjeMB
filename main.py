@@ -8,7 +8,7 @@ print ()
 print ('Hallo,', naam)
 
 counter = 0
-woordenlijst = ["school", "corona", "leerwerk", "huiswerk", "vakantie", "zomer", "python","informatica", "winnaar", "computer", "schoolboek", "zon", "zwemmen", "uitrusten"]
+woordenlijst = ["informatica", "informatiekunde", "spelletje", "aardigheidje", "scholier", "fotografie", "waardebepaling", "specialiteit", "verzekering","universiteit", "heesterperk"]
 
 hetwoord = random.choice(woordenlijst)
 lengtewoord = len(hetwoord)
